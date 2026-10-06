@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nhập bằng chuột hoặc bàn phím; máy tính xử lý biểu thức gồm hai số và một phép toán.">
+  <title>Máy tính bốn phép tính · Câu 8</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 8 / 9</span></div>
+    <h1>Máy tính bốn phép tính</h1><p class="subtitle">Bài 8 · DOM và jQuery</p><p class="description">Nhập bằng chuột hoặc bàn phím; máy tính xử lý biểu thức gồm hai số và một phép toán.</p>
+    <section class="demo-card calculator"><input id="leftOperand" class="calc-input" inputmode="decimal" value="12" aria-label="Số thứ nhất"><div class="operator-group"><button type="button" class="operator active" data-op="+">+</button><button type="button" class="operator" data-op="-">−</button><button type="button" class="operator" data-op="*">×</button><button type="button" class="operator" data-op="/">÷</button><button type="button" class="operator" data-op="^">^</button></div><input id="rightOperand" class="calc-input" inputmode="decimal" value="14" aria-label="Số thứ hai"><span class="equals">=</span><output id="calcResult" class="calc-result">26</output><button id="calculate" class="button calculate-button">Tính</button></section><p class="hint" id="calcStatus" aria-live="polite">Nhập 2 số rồi chọn phép toán. Phím Enter để tính.</p>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

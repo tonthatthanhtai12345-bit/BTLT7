@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Đếm và liệt kê tất cả màu trong dropdown, đồng thời mở hộp thoại thông báo.">
+  <title>Đếm mục trong danh sách · Câu 6</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 6 / 9</span></div>
+    <h1>Đếm mục trong danh sách</h1><p class="subtitle">Bài 6 · Dropdown list</p><p class="description">Đếm và liệt kê tất cả màu trong dropdown, đồng thời mở hộp thoại thông báo.</p>
+    <section class="demo-card"><label for="mySelect">Màu yêu thích</label><select id="mySelect"><option>Red</option><option>Green</option><option>Blue</option><option>White</option></select><button class="button" id="getOptions">Count and Output all items</button></section><div class="result-box" id="optionsResult" aria-live="polite">Danh sách màu sẽ hiện ở đây.</div>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

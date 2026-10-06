@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nhấn nút để chọn ngẫu nhiên một hình trong bộ ảnh minh họa.">
+  <title>Hiển thị ảnh ngẫu nhiên · Câu 5</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 5 / 9</span></div>
+    <h1>Hiển thị ảnh ngẫu nhiên</h1><p class="subtitle">Bài 5 · Hình ảnh</p><p class="description">Nhấn nút để chọn ngẫu nhiên một hình trong bộ ảnh minh họa.</p>
+    <section class="demo-card"><button class="button" id="showImage">Show Image</button><figure class="image-frame"><img id="randomImage" src="images/scene-1.svg" alt="Phong cảnh minh họa"><figcaption id="imageCaption">Ảnh 1 · 240 × 160</figcaption></figure></section>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

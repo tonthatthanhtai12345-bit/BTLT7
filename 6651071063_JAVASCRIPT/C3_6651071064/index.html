@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mỗi lần nhấn nút, thêm một hàng mới gồm hai ô vào cuối bảng.">
+  <title>Thêm hàng vào bảng · Câu 3</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 3 / 9</span></div>
+    <h1>Thêm hàng vào bảng</h1><p class="subtitle">Bài 3 · Thao tác bảng</p><p class="description">Mỗi lần nhấn nút, thêm một hàng mới gồm hai ô vào cuối bảng.</p>
+    <section class="demo-card"><table class="data-table" id="sampleTable"><thead><tr><th>Ô thứ nhất</th><th>Ô thứ hai</th></tr></thead><tbody><tr><td>Row 1 · cell 1</td><td>Row 1 · cell 2</td></tr><tr><td>Row 2 · cell 1</td><td>Row 2 · cell 2</td></tr></tbody></table><button class="button" id="insertRow">Insert Row</button><span class="counter" id="rowCount"></span></section>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

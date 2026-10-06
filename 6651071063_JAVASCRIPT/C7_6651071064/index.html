@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nhập URL. Trình duyệt hỏi xác nhận trước khi mở liên kết.">
+  <title>Xác nhận trước khi chuyển trang · Câu 7</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 7 / 9</span></div>
+    <h1>Xác nhận trước khi chuyển trang</h1><p class="subtitle">Bài 7 · Điều hướng an toàn</p><p class="description">Nhập URL. Trình duyệt hỏi xác nhận trước khi mở liên kết.</p>
+    <form id="linkForm" class="demo-card"><label for="linkInput">Đường liên kết</label><input type="url" id="linkInput" placeholder="https://example.com" required><button class="button" type="submit">Submit</button></form><p class="hint" id="linkStatus" aria-live="polite">Bạn có thể thử với https://example.com</p>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

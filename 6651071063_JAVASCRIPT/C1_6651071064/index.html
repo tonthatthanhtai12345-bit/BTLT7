@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nhấn nút để thay đổi cỡ chữ, phông chữ và màu của đoạn văn.">
+  <title>Đổi kiểu đoạn văn · Câu 1</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <div class="topline"><span>Buổi 7 · Thực hành jQuery</span><span>Câu 1 / 9</span></div>
+    <h1>Đổi kiểu đoạn văn</h1><p class="subtitle">Bài 1 · DOM và jQuery</p><p class="description">Nhấn nút để thay đổi cỡ chữ, phông chữ và màu của đoạn văn.</p>
+    <section class="demo-card"><span class="eyebrow">THỬ TƯƠNG TÁC</span><p id="sampleText" class="sample-copy">JavaScript Exercises — w3resource</p><button class="button" id="styleButton">Đổi kiểu chữ</button></section><p class="hint" id="styleStatus" aria-live="polite">Đoạn văn đang dùng kiểu mặc định.</p>
+    <footer class="footer"><strong>Bài tập chương 9</strong> · Giao diện minh họa tương tác</footer>
+  </main>
+  <script>window.addEventListener('load', function(){if(!window.jQuery) document.body.insertAdjacentHTML('beforeend','<p style="position:fixed;bottom:0;background:#fff;color:#9c2c40;padding:8px">Không tải được jQuery CDN. Kiểm tra kết nối Internet.</p>');});</script>
+</body>
+</html>

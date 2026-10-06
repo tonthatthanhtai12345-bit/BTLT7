@@ -1,0 +1,4 @@
+'use strict';
+$(function () {
+  const scenes = [{src:'http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg',fallback:'images/scene-1.svg',w:240,h:160,label:'Phong cảnh xanh'}, {src:'http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg',fallback:'images/scene-2.svg',w:320,h:195,label:'Bờ biển nắng'}, {src:'http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg',fallback:'images/scene-3.svg',w:500,h:343,label:'Núi lúc hoàng hôn'}]; $('#showImage').on('click', function () { const item = scenes[Math.floor(Math.random() * scenes.length)]; $('#randomImage').off('error').one('error', function () { $(this).attr('src', item.fallback); }).attr({src:item.src, alt:item.label}).css({width:item.w + 'px', aspectRatio:item.w + ' / ' + item.h}); $('#imageCaption').text(item.label + ' · ' + item.w + ' × ' + item.h); });
+});
